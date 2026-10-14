@@ -1,0 +1,33 @@
+AetherCTR2 License
+==================
+
+Copyright (c) 2026 Jeremy Fielder (KK7GWY). All rights reserved.
+
+AetherCTR2 is proprietary software. Its source code is confidential and is
+not licensed for use, copying, modification or distribution, except under a
+separate written grant from the copyright holder.
+
+Firmware images. Anyone who owns a device that AetherCTR2 supports may
+install and run the signed AetherCTR2 firmware images that the AetherSDR
+project publishes, on that device, and may keep copies of those images for
+that purpose. They may not modify, sell or redistribute the images, or
+reverse engineer them except as far as applicable law expressly permits.
+
+Separate grants. Lynn Hansen and Lynovation, LLC hold a separate license,
+signed by the copyright holder on 2026-10-13 and restated on 2026-10-14
+(GRANT-Lynn-Hansen.txt), which this license does not limit.
+
+Other people's work. Third-party components keep their own licenses, which
+this license does not change; see THIRD-PARTY-NOTICES.md. The SmartMTR
+design and meter extremes engine are the work of Dariusz Socha, SQ5X
+(https://smartmtr.net/), used with his permission on the condition that he
+is credited and his website is linked; see NOTICE.md. Those parts are not
+the copyright holder's to license, and this license grants no rights in
+them.
+
+No warranty. AetherCTR2 is provided "as is", without warranty of any kind,
+express or implied, including the warranties of merchantability, fitness
+for a particular purpose and non-infringement. In no event shall the
+copyright holder be liable for any claim, damages or other liability
+arising from AetherCTR2 or its use, including damage to a device or loss of
+its data.
