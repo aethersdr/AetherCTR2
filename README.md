@@ -37,8 +37,10 @@ not published.
 
 ## Installing
 
-Install AetherCTR2 from AetherSDR, not by hand: in the **CTR2 Proxy** applet,
-choose **USB**, then **Install…**, and pick a release. AetherSDR checks each
+Install AetherCTR2 from AetherSDR, not by hand: open **Settings → Controllers →
+CTR2...**, and in its **CTR2-Max Firmware** part pick a release and press
+**Install…**. The [user guide](USER-GUIDE.md) walks through installing,
+updating, switching firmware and connecting to the radio. AetherSDR checks each
 release's signature, installs AetherCTR2 beside the CTR2-Max's own firmware
 (which stays installed, with its settings), and updates it later over the
 USB cable. The CTR2-Max Firmware window needs an AetherSDR release newer
@@ -48,7 +50,8 @@ than v26.10.2.
   with its stock firmware. Registration keys come from Lynovation.
 - **Both firmwares stay.** The CTR2-Max firmware button on AetherCTR2's
   status screen, or AetherSDR's **Restart into: Stock Firmware**, starts the
-  stock firmware again.
+  stock firmware again. CTR2-Max firmware v1.02.00 and later can switch back
+  with **Run AetherCTR2** in its Settings menu.
 
 AetherCTR2 is distributed with the authorization of Lynovation, LLC; see the
 credit above.
