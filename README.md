@@ -55,13 +55,20 @@ credit above.
 
 ## What a release contains
 
+Each release has two files: `aetherctr2-VERSION.asdr`, the package AetherSDR
+installs, and `SHA256SUMS`, its checksum. (GitHub adds the "Source code"
+archives to every release; here they hold only this README and the license
+files.)
+
+The `.asdr` is an uncompressed tar archive (`tar -xf` lists and unpacks it)
+holding:
+
 | File | What |
 |---|---|
 | `manifest.json` | The release: version, images, where each goes, and what is never written |
 | `manifest.json.sig` | Ed25519 signature of `manifest.json` (base64) |
 | `aetherctr2.bin` | The AetherCTR2 application, RSA-3072 signed |
 | `bootloader.bin`, `partition-table.bin` | Installed with it the first time |
-| `SHA256SUMS` | Checksums of the files above |
 
 AetherSDR accepts a release only if `manifest.json` is signed by the
 AetherCTR2 release key, whose Ed25519 public key is
