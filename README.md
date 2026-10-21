@@ -78,6 +78,12 @@ AetherCTR2 release key, whose Ed25519 public key is
 `c5caf07300756c8fa37cc4f47b600a302162635cad5e8e2f85101f2308b1bb19`; the
 manifest's SHA-256 values then cover every image.
 
+## Help
+
+For help, see [SUPPORT.md](SUPPORT.md). Report security problems privately, as
+[SECURITY.md](SECURITY.md) describes. Everyone here follows the
+[Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 
 AetherCTR2 is proprietary: owners of a CTR2-Max may install and run these
